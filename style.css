@@ -1,8 +1,16 @@
+/****************************/
+/* SEARCH SECTION */
+/****************************/
+
 .search-section {
   background-color: #acc3d5;
   grid-column: 1 / 4;
   border-radius: 2rem;
 }
+
+/****************************/
+/* MAP SECTION */
+/****************************/
 
 .map-section {
   background-color: #ffffff;
@@ -11,6 +19,10 @@
   border-radius: 2rem;
 }
 
+/****************************/
+/* RESULTS SECTION */
+/****************************/
+
 .results-section {
   background-color: #bccfdd;
   grid-column: 3 / 4;
@@ -18,21 +30,39 @@
   border-radius: 2rem;
 }
 
-.results-list {
+.result-container {
   display: flex;
   flex-direction: column;
-  gap: 1.4rem;
+  gap: 2rem;
 }
 
-.result-list {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+.result-item {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
   background-color: #5886ab;
   list-style: none;
   border-radius: 2rem;
+  padding: 1.6rem;
+}
+
+.result-day {
+}
+
+.icon-weather {
+  height: 2.4rem;
+  width: 2.4rem;
+  grid-row: 2;
+}
+
+.result-temp {
+}
+
+.result-unit {
+  grid-row: 2;
 }
 
 .result-info {
   list-style: none;
+  grid-column: 3;
+  grid-row: 1 / span 2;
 }

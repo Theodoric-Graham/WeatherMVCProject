@@ -28,3 +28,8 @@ body {
   column-gap: 2.4rem;
   grid-template-columns: 1fr 1fr 1fr;
 }
+
+.grid--center {
+  align-self: center;
+  justify-self: center;
+}

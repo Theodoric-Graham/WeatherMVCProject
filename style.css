@@ -1,0 +1,26 @@
+.search-section {
+  background-color: red;
+  grid-column: 1 / 4;
+}
+
+.map-section {
+  background-color: green;
+  grid-row: 2 / 6;
+  grid-column: 1 / 3;
+}
+
+.results-section {
+  background-color: yellow;
+  grid-column: 3 / 4;
+  grid-row: 2 / 6;
+}
+
+.result {
+  background-color: blue;
+  margin-top: 2.4rem;
+  list-style: none;
+}
+
+.result-info {
+  list-style: none;
+}

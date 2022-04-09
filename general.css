@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 160rem;
+  margin: 0 auto;
+}
+
+.grid {
+  width: 100vw;
+  height: 95vh;
+  display: grid;
+}
+
+.grid--home {
+  row-gap: 2.4rem;
+  column-gap: 2.4rem;
+  grid-template-columns: 1fr 1fr 1fr;
+}

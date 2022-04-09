@@ -9,13 +9,16 @@ html {
   box-sizing: border-box;
 }
 
+body {
+  background-color: #eef3f7;
+}
+
 .container {
   max-width: 160rem;
   margin: 0 auto;
 }
 
 .grid {
-  width: 100vw;
   height: 95vh;
   display: grid;
 }

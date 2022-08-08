@@ -4,18 +4,30 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="general.css" />
 
     <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
 
-    <title>Weatherli</title>
+    <title>Wetherli--Your all in one weather app</title>
   </head>
   <body>
     <div class="grid grid--home container">
-      <section class="search-section">
-        <input type="text" />
+      <section class="search-section flex--center">
+        <h1 class="page-name">Weather App Name</h1>
+        <div class="search-routes_container">
+          <a class="search-routes" href="#">route 1</a>
+          <a class="search-routes" href="#">route 2</a>
+          <a class="search-routes" href="#">route 3</a>
+          <a class="search-routes" href="#">route 4</a>
+          <a class="search-routes" href="#">route 5</a>
+        </div>
       </section>
       <section class="map-section"></section>
       <section class="results-section">
@@ -23,13 +35,25 @@
           <li class="result-item">
             <h1 class="result-day grid--center">Monday</h1>
             <ion-icon class="icon-weather grid--center" name="sunny"></ion-icon>
-            <span class="result-temp grid--center">76</span>
+            <span class="result-temp">76</span>
             <strong class="result-unit grid--center">F C</strong>
             <ul class="result-info grid--center">
-              <li>wind</li>
-              <li>uv</li>
-              <li>precipitation</li>
-              <li>humidity</li>
+              <li>WIND</li>
+              <li>UV</li>
+              <li>PRECIPITATION</li>
+              <li>HUMIDITY</li>
+            </ul>
+          </li>
+          <li class="result-item">
+            <h1 class="result-day grid--center">Tuesday</h1>
+            <ion-icon class="icon-weather grid--center" name="sunny"></ion-icon>
+            <span class="result-temp">76</span>
+            <strong class="result-unit grid--center">F C</strong>
+            <ul class="result-info grid--center">
+              <li>WIND</li>
+              <li>UV</li>
+              <li>PRECIPITATION</li>
+              <li>HUMIDITY</li>
             </ul>
           </li>
         </ul>
